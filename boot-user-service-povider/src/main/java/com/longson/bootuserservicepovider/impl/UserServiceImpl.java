@@ -1,12 +1,16 @@
-package com.longson.gmaill.service.impl;
+package com.longson.bootuserservicepovider.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.longson.gamil.pojo.UserAddress;
 import com.longson.gamil.service.UserService;
+import org.springframework.stereotype.Component;
+
 
 import java.util.Arrays;
 import java.util.List;
 
-
+@Service //暴露服务
+@Component
 public class UserServiceImpl implements UserService {
     public List<UserAddress> getUserAddressList(String userId) {
 

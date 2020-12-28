@@ -17,4 +17,7 @@
 
     <!--调用远程暴露的服务，生成远程服务代理-->
     <dubbo:reference interface="com.longson.gamil.service.UserService" id="userService"></dubbo:reference>
+
+    <!--连接监控中心-->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>
