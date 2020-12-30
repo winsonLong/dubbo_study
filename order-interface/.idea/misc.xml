@@ -9,9 +9,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../user-service-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/../boot-user-service-povider/pom.xml" />
         <option value="$PROJECT_DIR$/../boot-service-order-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../order-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../boot-user-service-povider/pom.xml" />
       </list>
     </option>
   </component>

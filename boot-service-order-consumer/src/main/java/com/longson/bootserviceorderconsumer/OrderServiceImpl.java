@@ -1,16 +1,16 @@
 package com.longson.bootserviceorderconsumer;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.longson.gamil.pojo.UserAddress;
 import com.longson.gamil.service.OrderService;
 import com.longson.gamil.service.UserService;
-import jdk.nashorn.internal.ir.annotations.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+
+@Component
 public class OrderServiceImpl implements OrderService {
 
     //@Autowired

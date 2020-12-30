@@ -14,7 +14,7 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     UserService userService;
 
-    public void initOrder(String userID) {
+    public List<UserAddress> initOrder(String userID) {
 
         System.out.println("用户ID"+userID);
         //查询用户的收货地址
@@ -23,5 +23,6 @@ public class OrderServiceImpl implements OrderService {
         for(UserAddress a:addressesList){
             System.out.println(a.getUserAddress());
         }
+        return addressesList;
     }
 }
